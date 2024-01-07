@@ -109,4 +109,59 @@ font-size: 20px;
 font-weight: 700;
 }
 /* New offer section */
+.red-offer{
+    color: #F00;
 
+    font-size: 24px;
+
+    font-weight: 500;
+
+}
+.black-offer{
+    color: #070211;
+font-size: 48px;
+font-weight: 900;
+}
+.gray{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+}
+.date{
+    color: #F00;
+font-size: 48px;
+font-weight: 700;
+}
+.date-descript{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+padding top: ;: 50px;
+}
+.new-offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.date-offer{
+    padding: 50px;
+    text-align: center;}
+    .circle{
+        
+        
+        width: 300px;
+        height: 300px;
+        border: 10px solid red;
+        border-radius: 50%;
+        background-color: #FFF;
+        padding:30px ;
+    }
+    .offer-image2{
+        margin: 0;
+    }
+
+
+
+    
+
+    
