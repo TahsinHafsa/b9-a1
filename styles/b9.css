@@ -159,7 +159,88 @@ padding top: ;: 50px;
     .offer-image2{
         margin: 0;
     }
+    /* function section */
+    .function-data{
+        text-align: center;
+    }
+    .what-function{
+        color: #070211;
+font-size: 24px;
+font-weight: 500;
+padding-bottom: 5px;
 
+    }
+    .function-title{
+        color: #070211;
+font-size: 72px;
+font-weight: 900;
+padding-bottom: 10px;
+
+    }
+    .holiday{
+        color: #F00;
+        font-size: 72px;
+        font-weight: 900;
+            }
+ .holiday-descript{
+               
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 500;
+padding-bottom: 200px;
+            }
+
+/* function main */
+.function{
+   
+background: #FFF;
+text-align: center;
+/* margin: auto; */
+
+}
+.bottom{
+    /* padding: auto; */
+    height: 150px;
+}
+
+.side-img{
+   position: right;
+   padding: 0px 0px 0px 550px;
+   height: 300px;
+   width: 300px;
+   orientation: right;
+  
+}
+/* gift section */
+
+.gift-readings{
+    
+}
+.gift-head{
+    color: #F00;
+    padding-bottom: 5px;
+    padding-top: 30px;
+}
+.gift-title{
+color: #070211;
+padding-bottom: 20px;
+}
+.gift-descript{
+    color: rgba(7, 2, 17, 0.60);
+    
+}
+/* gift icons */
+.icon1{
+    display: flex;
+}
+.icon2{
+    display: flex;
+}
+.gift-icons{
+    width: 370px;
+height: 420px;
+flex-shrink: 0;
+}
 
 
     
