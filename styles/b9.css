@@ -7,9 +7,16 @@ body{
     background-repeat: no-repeat;
     background-position: center;
    flex-shrink: 0;
-padding: 50px 140px 50px 140px;
-border-radius: 16px;
-margin: 200px  150px;
+    padding: 50px 140px 50px 140px;
+    border-radius: 16px;
+    margin: 200px  150px;
+    background-blend-mode: color ;
+    filter: contrast(180%);
+   
+   flex-shrink: 0;
+    border-radius: 16px;
+    margin: 50px 150px 50px;
+    opacity: 0.8;
 
 }
 
@@ -20,14 +27,14 @@ text-align: center;
 font-size: 32px;
 font-weight: 400;
 padding: auto;
-background-color: black;
+/* background-color: black; */
 }
 .banner-heading{
     color: #FFF;
 text-align: center;
 font-size: 72px;
 font-weight: 900;
-background:black;
+/* background:black; */
 }
 /* main section */
 .offer{
@@ -228,7 +235,14 @@ font-weight: 900;
     font-size: 20px;
     font-weight: 400;
 }
-
+.gift-icons:hover{
+    opacity: 1;
+    transition: 1s ease;
+}
+.gift-icons{
+    opacity:0.5;
+      transition: 1s ease;
+}
 
 /* subscribe section */
 
@@ -240,6 +254,7 @@ font-weight: 900;
         border-radius: 16px;
         background: rgba(255, 0, 0, 0.05);
         text-align: center;
+        margin: auto;
     }
 
  .subs-icon{
@@ -269,12 +284,16 @@ font-size: 20px;
 font-weight: 600;
 
  }
- 
+ /* gift icon */
 .icon1{
     gap: 10px;
+
 }
 .icon2{
     gap: 10px;
 }
+
+
+
 
  /* footer section */
