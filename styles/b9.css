@@ -206,7 +206,7 @@ text-align: center;
 
 }
 .bottom{
-    /* padding: auto; */
+    padding: auto;
     height: 150px;
 }
 
@@ -249,7 +249,7 @@ font-weight: 900;
 
     .subscribe-icon{
         width: 1320px;
-        height: 616px;
+        height: 650px;
         flex-shrink: 0; 
         border-radius: 16px;
         background: rgba(255, 0, 0, 0.05);
